@@ -7,8 +7,8 @@ The script is called everytime a change is happened to AirPort. A [launchd](http
 ## Usage
 Enable
 
-```/bin/launchctl load /Users/boran/Library/Mobile\ Documents/com~apple~CloudDocs/Cydia/com.boranseckin.wifiUpdater.plist```
+```/bin/launchctl load com.boranseckin.wifiUpdater.plist```
 
 Disable
 
-```/bin/launchctl unload /Users/boran/Library/Mobile\ Documents/com~apple~CloudDocs/Cydia/com.boranseckin.wifiUpdater.plist```
+```/bin/launchctl unload com.boranseckin.wifiUpdater.plist```
