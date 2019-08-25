@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+
+    <key>Label</key>
+    <string>com.boranseckin.wifiUpdater.plist</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/wifiUpdater.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/wifiUpdaterError.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/boran/Library/Mobile Documents/com~apple~CloudDocs/Cydia</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/zsh</string>
+      <string>-c</string>
+      <string>./wifiUpdater.sh</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+      <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
+    </array>
+
+  </dict>
+</plist>
