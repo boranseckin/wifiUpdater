@@ -19,7 +19,7 @@
     <string>/tmp/wifiUpdaterError.log</string>
 
     <key>WorkingDirectory</key>
-    <string>/Users/boran/Library/Mobile Documents/com~apple~CloudDocs/Cydia</string>
+    <string>/Users/boran/Developer/wifiUpdater</string>
 
     <key>ProgramArguments</key>
     <array>

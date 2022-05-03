@@ -3,7 +3,7 @@
 SSID=`/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | grep ' SSID' | cut -d : -f 2- | sed 's/^[ ]*//'`
 currentLocation=`/usr/sbin/networksetup -getcurrentlocation`
 
-if [ "$SSID" = "BELL800" ] || [ "$SSID" = "Cthulhu-5" ] ;
+if [ "$SSID" = "COGECO-522D0" ];
 then
     location="Home"
 else
@@ -15,3 +15,4 @@ then
     /usr/sbin/networksetup -switchtolocation $location
     echo "| $location | $(date)"
 fi
+
